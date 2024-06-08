@@ -1,0 +1,18 @@
+.navigationContainer{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.logoContainer span{
+    color: #6E06F2;
+}
+
+.navLinks{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
