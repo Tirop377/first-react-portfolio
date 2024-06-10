@@ -1,0 +1,88 @@
+.footerArea{
+   margin-top: 20vh;
+   margin-bottom: 5vh;
+   display: flex;
+   flex-direction: column;
+   gap: 15vh;
+}
+
+.footerNavLinks, .footerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footerNavLinks ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.footerNavLinks ul li{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+.footerNavLinks ul li:hover{
+    color: #6E06F2;
+}
+
+.footerBottom .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left p{
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 500;
+}
+
+.left div{
+    display: flex;
+    gap: 30px;
+}
+
+.getinTouchBtn, .browseBtn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.5s;
+}
+
+.getinTouchBtn{
+    background-color: #6E06F2;
+    color: white;
+    border: none;
+}
+
+.browseBtn{
+    border: 1px solid black;
+}
+
+.getinTouchBtn:hover{
+    background-color: #6c06f28f;
+}
+
+.browseBtn:hover{
+    color: white;
+    background-color: black;
+}
+
+.rightBF p{
+    font-size: 1rem;
+    color: gray;
+}
+
+
+
+

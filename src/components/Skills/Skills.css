@@ -1,0 +1,29 @@
+.skillsSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12vh;
+}
+
+.skillsSection h3{
+    font-size: 3rem;
+}
+
+.skillsSection h3 span{
+    color: #6E06F2;
+}
+
+.skillCon{
+    display: flex;
+    gap: 20%;
+}
+
+.skillCon h3{
+    font-size: 2rem;
+}
+
+.skillCon ul{
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: gray;
+}

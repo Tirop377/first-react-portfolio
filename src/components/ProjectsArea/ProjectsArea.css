@@ -1,0 +1,36 @@
+.projectsSection{
+    margin:12vh 0;
+}
+
+.projectsSection, .projectsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsSection h2{
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #24262F;
+}
+
+.projectsSection h2 span{
+    color: #6E06F2;
+}
+
+.small-large{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.large-small{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    margin-bottom: 20px;
+}
+
+
+

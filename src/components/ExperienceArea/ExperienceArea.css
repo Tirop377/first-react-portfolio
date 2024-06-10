@@ -1,0 +1,71 @@
+.experienceArea{
+    margin-bottom: 12vh;
+}
+
+.experienceArea h2{
+    font-size: 3rem;
+    font-size: 800;
+    margin-bottom: 10px;
+}
+
+.expCon{
+    display: flex;
+}
+
+.expCon .companies{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+}
+
+.companies button{
+    padding: 15px 0px;
+    text-align: left;
+    padding-left: 30px;
+    border-left: 3.5px solid black;
+    font-size: 1.5rem;
+    color: rgb(71, 69, 69);
+    cursor: pointer;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    background-color: white;
+}
+
+.companies .clborder{
+    border-left-color:#6E06F2;
+    color: #6E06F2;
+}
+
+.expDescription{
+    display: flex;
+    flex-direction: column;
+}
+
+.apple h4{
+    font-size: 1.5rem;
+    font-size: 400;
+}
+
+
+.expDesc{
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.expDesc .icon{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+

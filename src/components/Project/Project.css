@@ -1,0 +1,38 @@
+.project{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImageContainer{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+.projectImageContainer img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.projectTitleContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+    font-size: 1.7rem;
+}
+
+
+
+.icon{
+    color: #6E06F2;
+    margin-bottom: -9px;
+}
+
+.projectDescription{
+    color: gray;
+}
+
+

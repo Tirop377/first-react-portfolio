@@ -1,9 +1,9 @@
 .navigationContainer{
-    padding: 15px 20px;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
 }
 
@@ -15,4 +15,12 @@
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+.navigationContainer a{
+    transition: all 0.5s;
+}
+
+.navigationContainer a:hover{
+    color: #6E06F2;
 }

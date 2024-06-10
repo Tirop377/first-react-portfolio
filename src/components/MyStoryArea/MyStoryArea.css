@@ -1,0 +1,14 @@
+.myStorySection{
+    margin-bottom: 12vh;
+}
+
+.myStorySection h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.myStorySection p{
+    font-size: 1.3rem;
+    color: rgb(75, 73, 73);
+    margin: 15px 0;
+}

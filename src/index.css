@@ -9,11 +9,16 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  padding: 0 4%;
 }
 
 a{
   text-decoration: none;
   color: inherit;
+}
+
+.mainColor{
+  color: #6E06F2;
 }
 
 
