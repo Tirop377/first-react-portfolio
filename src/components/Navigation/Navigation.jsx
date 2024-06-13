@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navigation.css'
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
   return (
@@ -9,13 +10,13 @@ const Navigation = () => {
         </div>
 
         <ul className='navLinks'>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><Link to={"/"}>Home</Link></li>
+            <li><Link to={"/projects"}>Projects</Link></li>
+            <li><Link to={"/about"}a href="#">About Me</Link></li>
         </ul>
 
         <div>
-            <span><a href='#'>Contact Me</a></span>
+            <span><Link to={"/contact"}>Contact Me</Link></span>
         </div>
       
     </div>
