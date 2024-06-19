@@ -1,0 +1,170 @@
+.foodieFinder{
+    display: flex;
+    flex-direction: column;
+    margin:12vh 0;
+}
+
+
+.pTitle{
+    max-width: 60%;
+}
+
+.pIntro h2{
+    font-size: 5rem;
+    font-size: 800;
+}
+
+.pIntro p{
+    font-size: 1.5rem;
+    color: gray;
+    margin-bottom: 7vh;
+}
+.pImage img{
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pMain{
+    display: flex;
+    gap: 50px;
+    margin: 8vh 0;
+}
+
+.pLeft{
+    width: 80%;
+}
+
+.stickyDiv{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    border: 2px solid #6E06F2;
+    box-shadow:1px 1px 10px #6E06F2;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 15px;
+    position: sticky;
+    top: 8vh;
+}
+
+.stickyDiv div{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.stickyDiv .smallFont{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.stickyDiv .largeFont{
+    font-size: 1.3rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.pRight{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.pRight h3{
+    font-size: 3.9rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.pRight p{
+    font-size: 1.3rem;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.pMoreImages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pDouble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.pMoreImages img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.pMoreImages .pLargeImage{
+    height: 500px;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10vh 0;
+}
+
+.commentContainer{
+    max-width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #6E06F2;
+    box-shadow: 1px 1px 5px #6E06F2;
+    border-radius: 20px;
+}
+
+.commentContainer p{
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.person{
+    display: flex;
+    gap: 10px;
+}
+
+.person img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.person span{
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.329);
+}
+
+.moreProjects{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.moreProjects .morePH3{
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.moreProjects .twoMoreProjects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}

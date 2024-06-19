@@ -1,0 +1,29 @@
+.projectsPage{
+    display: flex;
+    flex-direction: column;
+    margin: 12vh 0;
+}
+
+.projectsPageIntro{
+    width: 65%;
+    margin-bottom: 10vh;
+}
+.projectsPageIntro h2{
+    font-size: 5.1rem;
+    font-weight: 800;
+}
+
+.projectsPageIntro p{
+    font-size: 1.6rem;
+    color: gray;
+}
+
+.projectPageProjectContainer img{
+    height: 450px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.projectPageProjectContainer .icon{
+    display: none;
+}

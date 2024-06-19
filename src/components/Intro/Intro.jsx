@@ -2,6 +2,7 @@ import React from 'react'
 import './Intro.css'
 import profilePic from '../../assets/profile_pic.jpg'
 
+
 const Intro = () => {
   return (
     <div className='introContainer'>

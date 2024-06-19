@@ -1,0 +1,83 @@
+.contactPage{
+    margin: 15vh 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactPageIntro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cLeft{
+    width: 50%;
+}
+
+.cLeft h3{
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.cLeft .firstP{
+    font-size: 1.4rem;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.cLeft .contacts div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.cLeft .contacts div span{
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.cLeft .contacts div span:hover, .cLeft .contacts div p:hover{
+    border-color: rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
+}
+
+
+
+.cLeft .contacts div p{
+    color: gray;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.cRight{
+    padding: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.cRight div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+.cRight div img{
+    width: 100%;
+}
+
+

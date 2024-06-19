@@ -20,15 +20,15 @@
 
 .small-large{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 2fr 3fr;
+    gap: 35px;
     margin-bottom: 20px;
 }
 
 .large-small{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:20px;
+    grid-template-columns: 3fr 2fr;
+    gap:35px;
     margin-bottom: 20px;
 }
 

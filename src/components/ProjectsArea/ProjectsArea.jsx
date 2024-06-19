@@ -10,12 +10,12 @@ const ProjectsArea = () => {
       <h2>Projects<span>.</span></h2>
       <div className="projectsContainer">
         <div className="small-large">
-          <Project image ={smallImage}/>
-          <Project image ={largeImage}/>
+          <Project image ={smallImage} title={"FoodieFinder"}/>
+          <Project image ={largeImage} title={"EventPlanner"}/>
         </div>
         <div className="large-small">
-          <Project image ={largeImage}/>
-          <Project image ={smallImage}/>
+          <Project image ={largeImage} title={"EcoCart"}/>
+          <Project image ={smallImage} title={"TaskFlow"}/>
         </div>
       </div>
       

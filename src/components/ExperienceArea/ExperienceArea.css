@@ -37,26 +37,34 @@
     color: #6E06F2;
 }
 
-.expDescription{
+.expeDescription{
     display: flex;
     flex-direction: column;
+}
+
+.apple{
+    margin-bottom: 20px;
 }
 
 .apple h4{
     font-size: 1.5rem;
     font-size: 400;
+    margin-bottom: 8px;
 }
 
 
-.expDesc{
+.expDesci{
     display: flex;
+    align-items: center;
     gap: 10px;
-    padding: 20px 10px;
     font-size: 1.3rem;
     color: gray;
 }
+.expDesci p {
+    margin: 10px 0;
+}
 
-.expDesc .icon{
+.expDesci .icon{
     font-size: 1.5rem;
     font-weight: 800;
 }

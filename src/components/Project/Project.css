@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 12vh;
 }
 
 .projectImageContainer{
@@ -13,7 +14,9 @@
 
 .projectImageContainer img{
     width: 100%;
+    height: 320px;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .projectTitleContainer{
@@ -32,6 +35,7 @@
 }
 
 .projectDescription{
+    font-size: 1.3rem;
     color: gray;
 }
 
